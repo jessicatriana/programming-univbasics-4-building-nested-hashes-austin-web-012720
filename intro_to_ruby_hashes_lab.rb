@@ -4,8 +4,11 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  monopoly = {:railroads => {:key => "value"}}
-  hash
+  monopoly = {
+    :railroads => {
+      newhash => {
+      :key => "value"}}}
+  monopoly
 end
 
 def monopoly_with_third_tier
